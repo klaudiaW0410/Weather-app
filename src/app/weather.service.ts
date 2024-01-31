@@ -9,7 +9,7 @@ export class WeatherService {
 
   getWeather() {
     return this.http.get(
-      'https://api.openweathermap.org/data/2.5/weather?q=london&appid=dad06be902d1de99349dd17477715105&units=metric'
+      'https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}'
     );
   }
 }
