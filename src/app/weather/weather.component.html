@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="upper-data">
+    <img src="../assets/hot.jpeg" alt="" />
+    <!-- <img src="../assets/cold.jpeg" alt="" *ngIf="14 <= 15"/> -->
+
+    <div class="weather-data">
+      <div class="location">Stockholm</div>
+      <div class="temperature">{{ 14.4 | number : "1.0-0" }}°C</div>
+    </div>
+  </div>
+  <div class="lower-data">
+    <div class="description-container">
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/humidity.svg" alt="" />
+          <span class="value">humidity</span>
+        </div>
+        <div class="info-block-value">80%</div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/wind.svg" alt="" />
+          <span class="value">wind</span>
+        </div>
+        <div class="info-block-value">10 km/h</div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/min.svg" alt="" />
+          <span class="value">min</span>
+        </div>
+        <div class="info-block-value">10°C</div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="../assets/max.svg" alt="" />
+          <span class="value">max</span>
+        </div>
+        <div class="info-block-value">17°C</div>
+      </div>
+    </div>
+  </div>
+</div>
